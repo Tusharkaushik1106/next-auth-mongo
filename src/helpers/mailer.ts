@@ -30,7 +30,7 @@ export const sendEmail= async({email,emailType,userId}:any)=>{
     });
 
     const mailOptions = { 
-    from: 'tushar@tushar.ai',
+    from: 'k.tushar1106@gmail.com',
     to: email,
     subject: emailType=== 'VERIFY'? "Verify your Email": "reset your password",
     
